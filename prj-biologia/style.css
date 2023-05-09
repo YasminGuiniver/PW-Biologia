@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+body {
+  background: #F5F5DC;
+  font-family: 'Open Sans';
+  font-size: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.img-nav img{
+  width: 20px;
+  display: flex;
+  z-index: 9999;
+  margin-left: 20px;
+  height: 100px;
+}
+#nav {
+  position:fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: #B22222;
+  height: 100px;
+}
+#nav ul{
+  list-style: none;
+  height: 100px;
+  margin-top: 2%;
+}
+#nav li {
+  display: inline-block;
+  padding: 10px;
+}
+#nav li:hover {
+  background: white;
+}
+#nav li:hover a{
+  color: #CD5C5C;
+}
+#nav img{
+    width: 200px;
+}
+.content {
+  padding-top: 90px;
+}
+.anchor {
+  display: block; 
+}
+.title {
+  position: relative;
+  display: block;
+  top: -50px;
+  padding: 20px 0;
+  font-size: 1.9em;
+}
+.title:before{
+  font-size: 1.5em;
+  content: "\005B";
+}
+.title:after{
+  font-size: 1.5em;
+  content: "\005D";
+}
+.page-divider {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 500px;
+  height: 100%; 
+  overflow: hidden;
+  background-size: cover;
+}
+.page {
+  min-width: 200px;
+  padding: 50px 100px;
+}
+
+footer {
+  min-height: 500px;
+  padding: 100px;
+}
+footer p {
+  -webkit-column-count: 1;
+  -webkit-column-gap: 30px;
+  -moz-column-count: 1px;
+  -moz-column-gap: 30px;
+  -o-column-count: 1;
+  -o-column-gap: 30px;
+  column-count: 1;
+  column-gap: 30px;
+}
